@@ -37,7 +37,7 @@ env/
 *.swo
 *~
 .DS_Store
-
+*.sh
 # Testing
 .pytest_cache/
 .coverage
