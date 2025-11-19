@@ -1,0 +1,21 @@
+name: speech_recognition_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Python version
+  - python=3.10
+  
+  # Core dependencies
+  - pip
+  - numpy
+  - pyaudio
+  
+  # System libraries for audio (Linux/Mac)
+  - portaudio
+  
+  # Pip dependencies (not available in conda)
+  - pip:
+    - SpeechRecognition>=3.10.0
+    - textual>=0.41.0
+    - ollama>=0.1.7
